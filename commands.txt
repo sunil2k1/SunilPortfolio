@@ -1,0 +1,23 @@
+npm create vite@latest ./ -- --template react
+
+npm install -D tailwindcss
+
+npx tailwindcss init
+
+//--legacy-peer-deps to use old packages
+
+npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
+
+npm install --legacy-peer-deps -D postcss autoprefixer
+
+npx tailwindcss init -p
+
+npm install --legacy-peer-deps three
+
+npm i -D react-router-dom
+
+npm add react-router-dom@4.2.2
+
+npm i react-bootstrap --legacy-peer-deps
+
+npm install gh-pages --save-dev
