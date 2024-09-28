@@ -35,7 +35,7 @@ import maven from "./skills/maven.svg";
 import selenium from "./skills/selenium.svg";
 import python from "./skills/python.svg";
 import struts from "./skills/struts.svg";
-import junit from "./skills/junit.svg";
+import junit from "./skills/JUnit.svg";
 import restapi from "./skills/restapi.svg";
 import eclipse from "./skills/eclipse.svg";
 import mysql from "./skills/mssql.svg";

@@ -20,4 +20,30 @@ npm add react-router-dom@4.2.2
 
 npm i react-bootstrap --legacy-peer-deps
 
+// to host in git
+
 npm install gh-pages --save-dev
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sunil2k1/SunilPortfolio.git
+git push -u origin main
+
+change in  package.json
+{
+  "homepage": "https://sunil2k1.github.io/SunilPortfolio",
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+
+npm run deploy
